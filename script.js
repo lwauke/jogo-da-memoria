@@ -1,1 +1,1 @@
-console.log('test')
+const cards = document.querySelectorAll('.cards')
