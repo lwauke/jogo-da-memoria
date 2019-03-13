@@ -16,6 +16,10 @@
     margin-left: 2%;
 }
 
+.card[data-status="on"] .back {
+    display: none;
+}
+
 .back {
     height: 100%;
     width: 100%;
