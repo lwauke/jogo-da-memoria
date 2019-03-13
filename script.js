@@ -8,7 +8,7 @@ const arr = [
 ];
 
 function randomIndex() {
-    return Math.ceil(Math.random() * 4) - 1;
+    return Math.ceil(Math.random() * arr.length) - 1;
 }
 
 function generateCard(obj) {
@@ -26,7 +26,6 @@ function randomGenerate() {
     const index = randomIndex();
 
     const full = (randomGenerate.cache.filter(n => n === index) || {}).length === 2;
-
 
     if (full) {
         return randomGenerate() 
