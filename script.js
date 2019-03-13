@@ -1,3 +1,3 @@
-const cards = document.querySelectorAll('.cards')
+const cards = document.querySelectorAll('.card')
 
 cards.forEach(console.log)
