@@ -16,7 +16,7 @@
     margin-left: 2%;
 }
 
-.card[data-status="on"] .back {
+.card[data-status="1"] .back {
     display: none;
 }
 
